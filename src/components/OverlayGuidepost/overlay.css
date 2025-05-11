@@ -1,0 +1,25 @@
+.top-layer-overlay_guidepost{
+    position: absolute;
+    z-index: 1000;
+    /*background: rgba(255, 255, 255, 0.2);*/
+    min-height: 100%;
+    width: 70%;
+    transform: translate(-50%,10%);
+    display:flex;
+    flex-direction: column;
+}
+
+.top-layer-overlay_guidepost a:nth-child(odd) .guide-heading{
+    align-self: flex-start;
+    right:2.5em;
+}
+
+.top-layer-overlay_guidepost  a:nth-child(even) .guide-heading{
+    align-self: flex-end;
+    left:2.5em;
+}
+.top-layer-overlay_guidepost h2{
+    font-family: 'Jedi','New Gothic', sans-serif;
+    padding:1em;
+    font-size: 2.5em;
+}

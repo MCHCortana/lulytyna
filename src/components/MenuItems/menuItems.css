@@ -1,0 +1,16 @@
+.menu-item {
+    /*color: #FCCEE8;*/
+    color:black;
+    margin: 0.5em;
+    border-radius:0.5em;
+    padding: 0.5em;
+    font-weight: bolder;
+}
+
+.menu-items {
+    display: flex;
+    background: #FEDA4A;
+    padding: 0.5em;
+    margin-top:0.75rem;
+    border-radius: 1em;
+}

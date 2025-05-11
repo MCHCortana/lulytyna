@@ -1,0 +1,43 @@
+.where {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: Jedi, sans-serif;
+    font-size: 1.5rem;
+    color: #feda4a;
+}
+.where--info{
+    padding: 0 1em;
+    font-family: 'News Gothic', sans-serif;
+    font-weight: bold;
+
+}
+.where--address img {
+    aspect-ratio: 1 / 1;
+    max-width: 1.5em;
+    max-height: 1.5em;
+}
+.where--address{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+    padding: 1em;
+    color: #cccccc;
+
+}
+
+#where--map{
+    margin: 1em;
+}
+
+.where--address_text{
+    font-size: 0.7em;
+    color: #cccccc;
+}
+.where--address_text img{
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+}

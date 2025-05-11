@@ -1,0 +1,26 @@
+.when {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: Jedi, sans-serif;
+    font-size: 2rem;
+    color: #feda4a;
+}
+
+.karesovi {
+    font-size: 2.1em;
+    padding: 0.5rem;
+}
+
+.when img {
+    align-self: center;
+    max-width: 30vw;
+    padding: 1rem;
+}
+
+.show-counter {
+    font-size: 1.7em;
+    padding: 0.5rem;
+}
