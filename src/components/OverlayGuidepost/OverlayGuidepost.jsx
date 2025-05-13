@@ -15,9 +15,9 @@ export const OverlayGuidepost = () => {
                         KDE?
                     </h2>
                 </Link>
-                <Link to="#">
+                <Link to="/info">
                     <h2 className="guide-heading starwas">
-                        outfit
+                        info
                     </h2>
                 </Link>
                 <Link to="#">

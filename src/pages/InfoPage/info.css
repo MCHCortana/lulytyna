@@ -1,0 +1,49 @@
+.general--info {
+    padding: 1em;
+    overflow: visible;
+    color: #cccccc;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.general--info .karesovi{
+    text-align: center;
+}
+
+.general--info h3 {
+    padding: 0.3em;
+    font-family: Jedi;
+    font-size: 1.3em;
+}
+.general--info p{
+    font-size: 1.1em;
+}
+
+.general--info img {
+    display: inline-block;
+    width:1.8em;
+    height:1.8em;
+}
+.theme-colors{
+    display: flex;
+}
+
+.theme-colors-c {
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+    padding:1em;
+}
+.theme-colors-c:nth-child(1){
+    background-color: #f1cfe1ff;
+}
+.theme-colors-c:nth-child(2){
+    background-color: #e9839dff;
+}
+.theme-colors-c:nth-child(3){
+    background-color: #2e933cff;
+}
+.theme-colors-c:nth-child(4){
+    background-color: #297045ff;
+}
+

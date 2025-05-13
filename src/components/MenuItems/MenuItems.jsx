@@ -13,7 +13,11 @@ export const MenuItems = () => {
             <Link to="/kde">
                 <p className="menu-item"> Kde</p>
             </Link>
+            <Link to="/info">
             <p className="menu-item">Informace</p>
-            <p className="menu-item"> RSVP</p>
+            </Link>
+            <Link to="/RSVP">
+                <p className="menu-item"> RSVP</p>
+            </Link>
         </div>)
 }

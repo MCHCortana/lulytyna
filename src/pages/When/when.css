@@ -1,5 +1,5 @@
 .when {
-    height: 70vh;
+   min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -10,6 +10,8 @@
 }
 
 .karesovi {
+    color: #FEDA4A;
+    font-family: Jedi;
     font-size: 2.1em;
     padding: 0.5rem;
 }

@@ -1,0 +1,24 @@
+.rsvp {
+    color: #cccccc;
+    text-align: left;
+    margin:auto;
+}
+
+.rsvp h2 {
+    font-family: Jedi;
+    color: #feda4a;
+    font-size: 2em;
+    text-align: center;
+}
+
+.rsvp p{
+    margin:1em;
+}
+
+.rsvp form{
+    padding:0;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
