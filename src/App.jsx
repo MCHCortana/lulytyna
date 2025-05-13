@@ -7,7 +7,7 @@ function App() {
 
     useEffect(() => {
         // If on the homepage, hide scroll
-        if (location.pathname === "https://lukytyna.vercel.app/") {
+        if (location.pathname === "/") {
             document.body.style.overflow = "hidden";
         } else {
             document.body.style.overflow = "visible";
