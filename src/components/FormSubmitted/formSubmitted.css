@@ -1,0 +1,9 @@
+.formSubmitted{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.formSubmitted h2, .formSubmitted h3 {
+    font-family: Jedi;
+}

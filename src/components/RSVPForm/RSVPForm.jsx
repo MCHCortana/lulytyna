@@ -4,7 +4,7 @@ import {InputForm} from "./FormElements/InputForm.jsx";
 import {useState} from "react";
 import {CustomButton} from "../CustomButton/CustomButton.jsx";
 
-export const RSVPForm = () => {
+export const RSVPForm = ({setAnswers, isSubmitting}) => {
     const [surname, setSurname] = useState("")
     const [prefSong, setPrefSong] = useState("")
     const [confirmAtd, setConfirmAtd] = useState("yes");
@@ -13,7 +13,6 @@ export const RSVPForm = () => {
     const [name, setName] = useState("")
     const [note, setNote] = useState("")
 
-    const [isSubmitting, setIsSubmitting] = useState(true)
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -27,7 +26,7 @@ export const RSVPForm = () => {
             note: note
         }
 
-        setIsSubmitting(false);
+        isSubmitting(false);
         const url = "https://script.google.com/macros/s/AKfycbyYVlZeC58CwD294lTPdqy85oDUI7_Xmj57-pp_7vTZOoXWHh6ZPziMp7mjvqUxrrwo-Q/exec"
         //const urlEncodedData = new URLSearchParams(formData).toString();
         console.log(formData)
@@ -42,7 +41,10 @@ export const RSVPForm = () => {
             alert('Aj, karamba! Něco se pokazilo. Server se mnou nemluví 😢');
             return;
         }
-        const data = await response.json();
+        //const data = await response.json();
+        console.log(formData);
+        setAnswers(formData)
+
 
     }
 
@@ -83,12 +85,12 @@ export const RSVPForm = () => {
                 <InputForm id="prfSong"
                            setInput={setPrefSong}
                            text="Písnička do playlistu, více odděluj středníkem 😉"
-                           inputHeight={8}/>
+                           inputHeight={4}/>
 
                 <InputForm id="note"
                            setInput={setNote}
                            text="Poznámka: cokoliv co tě napdane, oceníme i tipy, co bychom měli zařadit do programu a další 😊"
-                           inputHeight={8}/>
+                           inputHeight={4}/>
                 <div className="submit-button">
                     <CustomButton buttonText="Odeslat" isSubmiting={isSubmitting}/>
                 </div>

@@ -1,9 +1,13 @@
 import {Header} from "../../components/Header/Header.jsx";
 import {RSVPForm} from "../../components/RSVPForm/RSVPForm.jsx";
 import "./rsvp.css"
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import {FormSubmitted} from "../../components/FormSubmitted/FormSubmitted.jsx";
 
 export const RSVP = () => {
+    const [answers, setAnswers] = useState({})
+    const [isSubmitting, setIsSubmitting] = useState(true)
+
 
     return (
         <>
@@ -26,8 +30,8 @@ export const RSVP = () => {
                 <p><strong>🎵 Hudební přání:</strong> Máte oblíbenou písničku, co by měla zaznít v kantýně? Napište nám
                     ji!</p>
 
+                {isSubmitting ? <RSVPForm setAnswers={setAnswers} isSubmitting={setIsSubmitting}/> : <FormSubmitted answers={answers}/>}
 
-                <RSVPForm />
 
             </section>
         </>
