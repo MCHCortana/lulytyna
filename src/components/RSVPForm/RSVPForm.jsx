@@ -92,7 +92,7 @@ export const RSVPForm = ({setAnswers, isSubmitting}) => {
                            text="Poznámka: cokoliv co tě napdane, oceníme i tipy, co bychom měli zařadit do programu a další 😊"
                            inputHeight={4}/>
                 <div className="submit-button">
-                    <CustomButton buttonText="Odeslat" isSubmiting={isSubmitting}/>
+                    <CustomButton buttonText="Odeslat"/>
                 </div>
             < /form>
 

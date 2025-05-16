@@ -82,7 +82,7 @@ export const InfoPage = () => {
                         Je to pro nás klíčové, abychom vše mohli připravit přesně podle vašich potřeb – účast,
                         ubytování, strava apod.
                     </p>
-                    <Link to="/RSVP">
+                    <Link to="/rsvp">
                         <CustomButton buttonText="RSVP"/>
                     </Link>
                 </div>
