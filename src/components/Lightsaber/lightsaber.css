@@ -1,6 +1,7 @@
 #bg {
     position: absolute;
     min-height: 910px;
+    height: 100vh;
     left:0; right:0; top:0; bottom:0;
     background-color: #222233;
     background-image: -webkit-radial-gradient(center, circle cover, transparent 0%, #000 100%);
@@ -306,7 +307,7 @@ h2 {
     .copy {
         padding: 0;
     }
-    #bg {
-        bottom: -59%;
-    }
+    /*#bg {*/
+    /*    bottom: -59%;*/
+    /*}*/
 }
