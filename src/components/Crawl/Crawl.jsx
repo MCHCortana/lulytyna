@@ -17,13 +17,14 @@ export const Crawl = () => {
     }, []);
 
     return (<>
-        {showAnime ? <CrawlText showAnime={showAnime} /> : (<>
-            <img src={logoInv} alt="logoLK inverted"/>
+        {showAnime ? <CrawlText showAnime={showAnime} /> : (
+            <div className="continue-section">
+            <img className="logoInverted-image" src={logoInv} alt="logoLK inverted"/>
             <div className="continue--button post-animation">
                 <Link to="/rozcestnik">
                     <CustomButton buttonText="ROZCESTNÍK"/>
                 </Link>
             </div>
-        </>)}
+        </div>)}
     </>)
 }
