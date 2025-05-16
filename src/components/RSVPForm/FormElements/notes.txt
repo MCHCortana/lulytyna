@@ -1,0 +1,29 @@
+// const handleSubmit = (e)=>{
+    //     e.preventDefault()
+    //     const url = "https://script.google.com/macros/s/AKfycby5iWnHJOIeI9iaSuMc8b0ofjR8HzYDPbM_GE0tZa1GuzLvKyrAhKXBTqG6chMXb_4_/exec"
+    //     fetch(url,{
+    //         method:"POST",
+    //         //headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //         body:(`name=${name}`)
+    //     }).then(res=>res.text()).then(data=>{
+    //         alert(data)
+    //     }).catch(error=>console.log(error))
+    // }
+
+
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     const guestInfo = new FormData()
+    //     guestInfo.append("name", name);
+    //     guestInfo.append("surname", surname);
+    //     guestInfo.append("confirmAtd", confirmAtd);
+    //     guestInfo.append("sleeping", sleeping);
+    //     guestInfo.append("carShare", carShare);
+    //     guestInfo.append("prefSong", prefSong);
+    //     guestInfo.append("note", note);
+    //
+    //     sendData(guestInfo);
+    //     console.log(Object.fromEntries(guestInfo.entries()));
+    //
+    // }
+

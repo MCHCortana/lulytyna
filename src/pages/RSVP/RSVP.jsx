@@ -26,6 +26,7 @@ export const RSVP = () => {
                 <p><strong>🎵 Hudební přání:</strong> Máte oblíbenou písničku, co by měla zaznít v kantýně? Napište nám
                     ji!</p>
 
+
                 <RSVPForm />
 
             </section>
