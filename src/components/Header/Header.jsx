@@ -12,7 +12,7 @@ export const Header = ({skipAnimation}) => {
     }
     return (<>
         <div className="navbar">
-            {!skipAnimation ? (<Link to="/info">
+            {!skipAnimation ? (<Link to="/rozcestnik">
                     <CustomButton buttonText={"Přeskočit"}/>
                 </Link>)
                 : null}

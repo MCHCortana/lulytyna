@@ -12,20 +12,21 @@ export const Crawl = () => {
                     <h1>Nová budoucnost</h1>
                 </div>
                 <p>
-                    Je temné období… alespoň pro single život.
-                    Dva rebelové, LUKÁŠ a KRISTÝNA,
-                    spojili své síly, aby porazili samotu a
-                    vstoupili do svazku, který je silnější
-                    než Temná strana.</p>
+                    Temné časy pro single život končí.
+                    Lukáš a Kristýna se rozhodli
+                    spojit své síly a říct sbohem samotě.
+                    Vydávají se na dobrodružství,
+                    které je silnější než jakákoli Temná strana.</p>
 
-                <p>Na planetě KRASLICE, dne 6.září 2025,
-                    se rozhoří velká událost – svatba,
-                    která otřese celou Galaxií.</p>
+                <p>6. září 2025 v Kraslicích nastane událost,
+                    která rozvíří vesmír (minimálně ten náš) – jejich svatba!</p>
 
-                <p>Připravte si kapesníčky na slzičky,
-                    na oslavu svoje játra a pupíčky
-                    a vydejte se s námi na cestu do nové éry…
-                    éra lásky, humoru a Hvězdné párty!</p>
+                <p>Tak si připravte kapesníčky na slzy dojetí,
+                    játra na přípitek,
+                    břicha na smích –
+                    a vydejte se s námi oslavit začátek
+                    nové kapitoly plné lásky,
+                    radosti a hvězdně laděné párty!</p>
 
                 <p>May the Love be with you. Always.</p>
             </div>

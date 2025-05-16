@@ -14,13 +14,14 @@
     perspective: 800px;
     /* The rest is totally up to personal styling preferences */
     color: #feda4a;
-    font-family: 'New Gothic', sans-serif;
     font-size: 500%;
     font-weight: 600;
     letter-spacing: 6px;
     line-height: 150%;
     text-align: justify;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
+
 .crawl {
     /* Position the element so we can adjust the top property in the animation */
     position: relative;
@@ -29,6 +30,9 @@
     padding-top: 50vh;
     /* Adds the crawl animation, which plays for one minute */
     animation: crawl 60s linear;
+}
+.star-wars .title{
+    text-align: center;
 }
 
 @keyframes crawl {
