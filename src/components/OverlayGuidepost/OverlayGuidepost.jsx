@@ -20,7 +20,7 @@ export const OverlayGuidepost = () => {
                         info
                     </h2>
                 </Link>
-                <Link to="#">
+                <Link to="/rsvp">
                     <h2 className="guide-heading starwas">
                         rsvp
                     </h2>
