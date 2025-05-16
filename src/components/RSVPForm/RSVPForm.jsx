@@ -59,7 +59,7 @@ export const RSVPForm = ({setAnswers, isSubmitting}) => {
                                 {value: "yes", text: "Chci být u toho"},
                                 {value: "no", text: "Děkuji za pozvání, ale nedorazím"}
                             ]}
-                            value="yes"/>
+                            value={confirmAtd}/>
 
                 <SelectForm setSelect={setSleeping}
                             options={[
